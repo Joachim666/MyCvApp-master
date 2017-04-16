@@ -1,0 +1,37 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigationMenuContact"
+        android:icon="@drawable/ic_local_phone_24dp"
+        android:title="C o n t a c t" />
+
+    <item android:title="Phone: 609 320 082"
+        android:id="@+id/phone"/>
+    <item android:title="Mail: joachimotto@wp.pl"
+        android:id="@+id/mail"/>
+
+
+    <item
+        android:id="@+id/navigationMenuSkills"
+        android:icon="@drawable/ic_format_paint_24dp"
+        android:title="S k i l l s" />
+
+    <item android:title="Microsoft office"
+        android:id="@+id/office"/>
+    <item android:title="Java"
+        android:id="@+id/java"/>
+    <item android:title="AutoCad"
+        android:id="@+id/autocad"/>
+
+    <item
+        android:title="L a n g u a g e s"
+        android:icon="@drawable/ic_record_voice_over_black_24dp"/>
+    <item
+        android:title="English"
+        android:id="@+id/english"/>
+    <item
+        android:title="German"
+        android:id="@+id/german"/>
+
+
+</menu>
