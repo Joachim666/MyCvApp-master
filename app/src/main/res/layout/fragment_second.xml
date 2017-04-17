@@ -1,32 +1,176 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/framelayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/accent"
-    tools:context="com.sdacademy.otto.joachim.mycvapp.ThirdFragment"
-    android:orientation="horizontal"
-    android:gravity="center_horizontal"
+    android:orientation="vertical"
     android:padding="8dp"
+    tools:context="com.sdacademy.otto.joachim.mycvapp.ThirdFragment">
 
-    >
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="50dp"
-        android:src="@drawable/ic_extension_black_24dp"
-        android:scaleX="2"
-        android:scaleY="2"
-        android:layout_marginRight="30dp"
-        />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="50dp"
+    <LinearLayout xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/framelayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
 
-        android:text="@string/work_experience2"
-        android:textColor="@color/primary_dark"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        android:id="@+id/textView3"
-        />
-</LinearLayout>
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginRight="30dp"
+            android:scaleX="2"
+            android:scaleY="2"
+            android:src="@drawable/ic_extension_black_24dp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="@string/work_experience2"
+            android:textColor="@color/primary_dark"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+   <ScrollView
+       android:layout_width="wrap_content"
+       android:layout_height="match_parent">
+
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="347dp"
+                android:layout_height="211dp"
+                android:layout_marginLeft="4dp"
+                android:orientation="vertical"
+                android:gravity="center">
+
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Manual labourer in ERBUD"
+                    android:textColor="@color/primary"
+                    android:textStyle="bold"
+                    android:gravity="center"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="07/2016-09/2016"
+                    android:textStyle="italic"
+                    android:gravity="center"/>
+
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Seasonal  job in Germany"
+                    android:textColor="@color/primary"
+                    android:textStyle="bold"
+                    android:gravity="center"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="06/2015-09/2015 "
+                    android:textStyle="italic"
+                    android:gravity="center"/>
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:text="Seasonal  job in Germany"
+                    android:textColor="@color/primary"
+                    android:textStyle="bold"
+                    android:gravity="center"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="06/2014-09/2014 "
+                    android:textStyle="italic"
+                    android:id="@+id/textView"
+                    android:gravity="center"/>
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:text="Manual labourer in BUDIMEX"
+                    android:textColor="@color/primary"
+                    android:textStyle="bold"
+                    android:gravity="center"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="07/2013-09/2013"
+                    android:textStyle="italic"
+                    android:gravity="center"/>
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Workcamp participant in Germany"
+                    android:textColor="@color/primary"
+                    android:textStyle="bold" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="06/2011-08/2011"
+                    android:textStyle="italic" />
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Workcamp participant in Scotland"
+                    android:textColor="@color/primary"
+                    android:textStyle="bold" />
+
+
+                <TextView
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="06/2010-08/2010 "
+                    android:textStyle="italic" />
+
+
+            </LinearLayout>
+   </ScrollView>
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+

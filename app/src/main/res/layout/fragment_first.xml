@@ -50,7 +50,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginBottom="55dp"
-                android:layout_marginTop="5dp"
+                android:layout_marginTop="9dp"
 
                 android:rotation="90"
                 android:scaleX="8"
